@@ -12,7 +12,7 @@ class ExecHelpers {
   /**
     Takes an input stream, reads the full stream, and returns the result as a
     string.
-
+ 
     In Java 9 and later, new String(out.readAllBytes()) would be a better
     option, but using Java 8 for compatibility with ieng6.
   */
